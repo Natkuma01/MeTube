@@ -4,9 +4,9 @@ import { CheckCircle, FiberPin } from '@mui/icons-material';
 import { demoThumbnailUrl, demoVideoUrl, demoVideoTitle, demoChannelUrl, demoChannelTitle } from '../utils/constants';
 
 const VideoCard = ({ video: { id: { videoId }, snippet } }) => {
-    console.log(snippet)
+    
     return (
-    <Card sx={{ width: { md: '320px', xs: '100%' }, boxShadow: 'none', borderRadius: 'none' }}>
+    <Card className="card-pink" sx={{ width: { md: '320px', xs: '100%' }, boxShadow: 'none', borderRadius: '8px' }}>
         <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
         <CardMedia 
         image={snippet?.thumbnails?.high?.url} 

@@ -34,6 +34,12 @@ a {
   color: white !important;
 }
 
+.card-pink:hover {
+  border-width: '5px';
+  border-color: '#ff48a5';
+  box-shadow: 0 0 30px rgba(239, 10, 197, 0.846);
+}
+
 .react-player {
   height: 77vh !important;
   width: 100% !important;

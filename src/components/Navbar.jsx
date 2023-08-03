@@ -11,7 +11,7 @@ const Navbar = () => (
     sx={{ position: "sticky", background: 'pink', top: 0, justifyContent: 'space-between'}}
   >
     <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
-    <img src={logo} alt="metube" height={40} />
+    <img src={logo} alt="metube" height={50} />
     </Link>
 
         <img src={me_tube} alt="logo" height={65} />
