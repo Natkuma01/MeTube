@@ -1,4 +1,4 @@
-import { Stack, Typography } from '@mui/material';
+import { Stack } from '@mui/material';
 import { Link } from 'react-router-dom';
 import SearchBar from './SearchBar';
 import { logo, me_tube } from '../utils/constants'
