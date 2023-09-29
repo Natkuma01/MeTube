@@ -1,7 +1,9 @@
 import { Stack } from '@mui/material';
 import { Link } from 'react-router-dom';
 import SearchBar from './SearchBar';
-import { logo, me_tube } from '../utils/constants'
+import logo from '../utils/metube-trans.png';
+import Lottie from "lottie-react";
+import youtubeLogo from "../utils/youtube-logo.json";
 
 const Navbar = () => (
   <Stack 
@@ -11,10 +13,10 @@ const Navbar = () => (
     sx={{ position: "sticky", background: 'pink', top: 0, justifyContent: 'space-between'}}
   >
     <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
-    <img src={logo} alt="metube" height={50} />
+      <Lottie animationData={youtubeLogo} className="metube-animate" />
     </Link>
 
-        <img src={me_tube} alt="logo" height={65} />
+        <img src={ logo } alt="logo" className="metube-font" />
   
     <SearchBar />
 </Stack>
