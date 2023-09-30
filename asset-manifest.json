@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MeTube/static/css/main.ad872b47.css",
-    "main.js": "/MeTube/static/js/main.d54da8a2.js",
+    "main.js": "/MeTube/static/js/main.0c8a197b.js",
     "static/media/metube-trans.png": "/MeTube/static/media/metube-trans.21458385e855fe4ff21a.png",
     "index.html": "/MeTube/index.html",
     "main.ad872b47.css.map": "/MeTube/static/css/main.ad872b47.css.map",
-    "main.d54da8a2.js.map": "/MeTube/static/js/main.d54da8a2.js.map"
+    "main.0c8a197b.js.map": "/MeTube/static/js/main.0c8a197b.js.map"
   },
   "entrypoints": [
     "static/css/main.ad872b47.css",
-    "static/js/main.d54da8a2.js"
+    "static/js/main.0c8a197b.js"
   ]
 }
